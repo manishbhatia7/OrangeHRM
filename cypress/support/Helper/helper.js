@@ -19,6 +19,12 @@ export function add_employee() {
     cy.get(Constants.btn_addemployee).as('Add_Employee')
     cy.get('@Add_Employee').should('be.hidden').click({ force: true })
 }
+export function add_kpi() {
+    cy.get(Constants.lbl_performance).as('performance_tab')
+    cy.get('@performance_tab').realHover()
+    cy.contains(Constants.lbl_performance_configure, 'Configure').realHover()
+    cy.contains(Constants.lbl_setup_kpi, 'KPIs').click({ force: true })
+}
 export function logout() {
     cy.get(Constants.lbl_dashboard).as('dashboard')
     cy.get('@dashboard').click()

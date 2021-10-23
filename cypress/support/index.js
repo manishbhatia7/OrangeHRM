@@ -16,6 +16,7 @@
 import './commands'
 require('cypress-xpath')
 import 'cypress-file-upload'
+import 'cypress-real-events/support'
 
 // Alternatively you can use CommonJS syntax:
 Cypress.Cookies.defaults({

@@ -17,5 +17,8 @@
     "cypress-xpath": "^1.6.2",
     "jasmine": "^3.9.0",
     "mocha": "^9.1.2"
+  },
+  "dependencies": {
+    "cypress-real-events": "^1.5.1"
   }
 }

@@ -9,6 +9,11 @@ export default {
     lbl_saved: '#successBodyEdit',
     lbl_shared: '#successBodyShare',
     lbl_deleted: '#successBodyDelete',
-    lnk_anchor: 'a',
     lbl_dashboard: '#welcome',
+    lbl_performance: '#menu__Performance',
+    lbl_performance_configure: '#menu_performance_Configure',
+    lbl_setup_kpi: '#menu_performance_searchKpi',
+
+    /*Common*/
+    lnk_anchor: 'a',
 }
